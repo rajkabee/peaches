@@ -56,6 +56,8 @@ public class Product {
 		this.imageUrl = imageUrl;
 		this.categories = categories;
 	}
+	
+	
 
 	@Override
 	public String toString() {
@@ -64,7 +66,10 @@ public class Product {
 				+ ", isActive=" + isActive + ", dateCreated=" + dateCreated + ", dateUpdated=" + dateUpdated
 				+ ", imageUrl=" + imageUrl + ", categories=" + categories + "]";
 	}
-	
+
+
+
+
 	
 	
 

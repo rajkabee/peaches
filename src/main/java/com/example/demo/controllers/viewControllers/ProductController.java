@@ -72,8 +72,7 @@ public class ProductController {
 				@RequestParam("unitPrice") BigDecimal unitPrice,
 				@RequestParam("image") MultipartFile file,
 				@RequestParam("active") Boolean isActive,
-				@RequestParam("unitsInStock") int unitsInStock,
-				HttpServletRequest request
+				@RequestParam("unitsInStock") int unitsInStock
 				
 			) throws IOException {
 		Category category = catRepo.findById(Long.parseLong(categoryId)).get();
